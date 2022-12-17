@@ -1,4 +1,4 @@
-// import React from "react"; 
+// import Alert from '@mui/material/Alert';
 import { AiOutlineSend } from 'react-icons/ai';
 import emailjs from '@emailjs/browser';
 import React, { useRef } from "react";
@@ -15,6 +15,9 @@ export default function ContactUs() {
     emailjs.sendForm('service_fmztxkc', 'template_4qkhicb', formRef.current, 'OdsapR4KpJKyC5q9T')
       .then((result) => {
         console.log(result.text);
+        setTimeout(() => {
+          alert('Your Message Has Been Sent')
+        }, 1000);
       }, (error) => {
         console.log(error.text);
       });
@@ -24,7 +27,8 @@ export default function ContactUs() {
   
 
   return (
-      <Container>
+    <Container>
+      {/* <Alert severity="success">This is a success alert — check it out!</Alert> */}
      
         <Row className="mb-5 mt-3">
           <Col lg="8">
