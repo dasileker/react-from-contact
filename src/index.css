@@ -120,6 +120,7 @@ code {
     background-color: var(--bg-color);
     border-radius: 0 !important;
     border: 1px solid var(--secondary-color);
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
 }
 
 .contact__form input.form-control {
@@ -157,4 +158,5 @@ code {
 .btn{
     color: #fff;
     border: 1px solid #fff;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
 }
