@@ -14,7 +14,7 @@
 - Clone the app : `git@github.com:dasileker/react-from-contact.git`
 
 - Cd to the folder.
-- Install the packages via `npm install`.
+- Install the packages via `npm install` if you encounter any problems use `npm install --force`.
 - Start the app via `npm start`.
 
 # Final Result
