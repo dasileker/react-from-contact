@@ -1,3 +1,4 @@
-#!/usr/bin/env node
-# ignore the node_modules folder
+# gitignore
+
+# Ignore the node_modules directory
 node_modules/
