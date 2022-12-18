@@ -1,1 +1,3 @@
-node_module/
+#!/usr/bin/env node
+# ignore the node_modules folder
+node_modules/
